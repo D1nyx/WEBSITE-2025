@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RAMM Informática Lda.</title>
+  <title>RAMM Informática</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -88,29 +89,17 @@
       </nav>
     </div>
   </header>
-  <section id="hero" class="hero parallax-section py-5 mb-5">
+  <section id="hero" class="hero parallax-section py-5 mb-5 fade-in">
     <div class="parallax-bg"></div>
-    <div class="container d-flex flex-wrap align-items-center justify-content-between gap-5 position-relative hero-section-custom hero-section-fixed" style="z-index:2;">
+    <div class="container hero-section-custom hero-section-fixed d-flex flex-wrap align-items-center justify-content-between gap-5 position-relative" style="z-index:2;">
       <div class="hero-content flex-grow-1 mb-4 mb-lg-0" style="min-width:320px;max-width:600px;">
         <div class="d-flex flex-column justify-content-center align-items-start h-100" style="min-height:240px;">
-          <h1 class="mb-4 fw-bold hero-title-fixed" style="color:#000000;min-height:4.2rem;display:flex;align-items:center;font-size:clamp(2.5rem,6vw,3.5rem);letter-spacing:-1px;overflow:hidden;">
+          <h1 class="mb-4 fw-bold hero-title-fixed" style="color:#000;">
             <span id="typed-hero"></span>
           </h1>
-          <a href="#contacto" class="btn btn-primary btn-lg px-5 py-3 shadow hero-cta-btn" style="background:#b91c1c;border:none;font-size:1.25rem;letter-spacing:.5px;">
-            <i class="bi bi-chat-dots me-2"></i>Fale Connosco
-          </a>
-        </div>
-        <div class="d-flex gap-3 mt-4">
-          <span class="badge rounded-pill bg-danger-subtle text-danger fw-semibold px-3 py-2"><i class="bi bi-lightning-charge"></i> Resposta Rápida</span>
-          <span class="badge rounded-pill bg-success-subtle text-success fw-semibold px-3 py-2"><i class="bi bi-shield-check"></i> Suporte Profissional</span>
-        </div>
-      </div>
-      <div class="hero-graphic flex-grow-1 text-center d-flex justify-content-center align-items-center" style="min-width:260px;">
-        <div class="hero-img-wrapper position-relative" style="display:inline-block;">
-          <img src="imagens/slide1.jpg" alt="Tecnologia" class="img-fluid rounded-4 shadow hero-main-img" style="max-width: 400px; border:6px solid #fff; box-shadow:0 8px 32px rgba(185,28,28,0.13); transition:transform .5s cubic-bezier(.4,2,.3,1);">
-          <div class="hero-img-glow" style="position:absolute;inset:0;z-index:-1;filter:blur(32px);background:linear-gradient(120deg,#b91c1c33 0%,#fca5a533 100%);border-radius:2rem;"></div>
-          <div class="hero-img-badge position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger text-white shadow" style="font-size:1rem;padding:.7em 1.2em;z-index:2;">
-            <i class="bi bi-award"></i> 30+ anos
+          <div class="d-flex gap-3 mt-4">
+            <span class="badge rounded-pill bg-danger-subtle text-danger fw-semibold px-3 py-2"><i class="bi bi-lightning-charge"></i> Resposta Rápida</span>
+            <span class="badge rounded-pill bg-success-subtle text-success fw-semibold px-3 py-2"><i class="bi bi-shield-check"></i> Suporte Profissional</span>
           </div>
         </div>
       </div>
@@ -125,7 +114,7 @@
         <div class="col-md-6">
           <h2 class="mb-4" style="color:#b91c1c;">Sobre Nós</h2>
           <p class="fs-5" style="color:#000000;">
-            Há mais de três décadas – desde 29 de Novembro de 1990 – que a RAMM Informática, Lda. apoia empresas, instituições e utilizadores particulares de Vale de Cambra e da região envolvente em tudo o que diz respeito às tecnologias de informação.
+            Há mais de três décadas – desde 29 de Novembro de 1990 – que a RAMM Informática apoia empresas, instituições e utilizadores particulares de Vale de Cambra e da região envolvente em tudo o que diz respeito às tecnologias de informação.
             <br><br>
             Somos uma empresa 100% portuguesa, fundada e enraizada no coração do distrito de Aveiro, com uma missão clara: aproximar a tecnologia das pessoas através de soluções sólidas, transparentes e personalizadas.
           </p>
@@ -167,9 +156,9 @@
       <div class="d-flex flex-column flex-md-row justify-content-center align-items-stretch gap-4 service-cards">
         <div class="card h-100 p-4 border-0 shadow-sm text-center flex-fill" style="min-width:260px;max-width:340px;" data-aos="fade-up" data-aos-delay="0" data-aos-duration="900">
           <div class="mb-3 d-flex justify-content-center">
-            <img src="imagens/solucao.png" alt="Consultoria TI" class="rounded-circle bg-white p-2 shadow-sm" style="width:80px;height:80px;object-fit:contain;" />
+            <img src="imagens/solucao.png" alt="Orientação TI" class="rounded-circle bg-white p-2 shadow-sm" style="width:80px;height:80px;object-fit:contain;" />
           </div>
-          <h3 class="mb-2" style="color:#b91c1c;">Consultoria TI</h3>
+          <h3 class="mb-2" style="color:#b91c1c;">Orientação TI</h3>
           <ul class="list-unstyled text-secondary small mb-0 text-start mx-auto" style="max-width: 250px;">
             <li><i class="bi bi-check-circle-fill" style="color:#b91c1c"></i> Análise de necessidades</li>
             <li><i class="bi bi-check-circle-fill" style="color:#b91c1c"></i> Estratégia digital</li>
@@ -213,8 +202,7 @@
               </a>
               <h4 class="mb-2" style="color:#b91c1c;font-weight:700;">Microsoft</h4>
               <p class="mb-0 small text-center" style="max-width:340px;">
-                Parceira Microsoft, a RAMM Informática Lda. oferece soluções líderes em servidores, sistemas operativos, hardware e cloud, promovendo a transformação digital.
-              </p>
+                A Microsoft é uma líder mundial em software, serviços e soluções tecnológicas. Conhecida pelo sistema operativo Windows e pelo pacote Office, a empresa também desenvolve plataformas em nuvem, dispositivos inteligentes e ferramentas de produtividade para uso pessoal e empresarial.              </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -224,8 +212,7 @@
               </a>
               <h4 class="mb-2" style="color:#b91c1c;font-weight:700;">HP</h4>
               <p class="mb-0 small text-center" style="max-width:340px;">
-                Parceiro HP em Portugal, disponibilizamos infraestruturas, mobilidade e impressão, com soluções inovadoras e suporte de excelência para o seu negócio.
-              </p>
+                A HP é uma empresa global de tecnologia reconhecida pela inovação em hardware e software. Especializa-se no desenvolvimento de computadores pessoais, impressoras e soluções tecnológicas para consumidores e organizações em todo o mundo.              </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -235,8 +222,7 @@
               </a>
               <h4 class="mb-2" style="color:#b91c1c;font-weight:700;">Elabora Software</h4>
               <p class="mb-0 small text-center" style="max-width:340px;">
-                Especialistas em software de gestão empresarial, ajudamos a inovar, integrar processos e tomar decisões estratégicas com soluções robustas e fiáveis.
-              </p>
+                A Elabora Software é uma empresa especializada no desenvolvimento de soluções informáticas personalizadas. Focada na inovação e na eficiência, oferece serviços de software à medida, orientação tecnológica e apoio digital para empresas de diversos setores.              </p>
             </div>
           </div>
         </div>
@@ -330,7 +316,7 @@
           strings: [
             'Inovação e tecnologia para o seu negócio',
             'Soluções digitais à medida',
-            'Consultoria, infraestrutura e suporte'
+            'Orientação, infraestrutura e suporte'
           ],
           typeSpeed: 38,
           backSpeed: 22,
